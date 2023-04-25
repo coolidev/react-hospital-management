@@ -1,0 +1,27 @@
+.patientContainer{
+    width: 250px;
+    background-color: #dcdcdc;
+    height: 90px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.patientContainer:focus{
+
+}
+.covidIndicator{
+    height: 100%;
+    width: 10px;
+    border-radius: 10px;
+}
+.patientDetails{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.patientText{
+    font-size: 15px;
+}

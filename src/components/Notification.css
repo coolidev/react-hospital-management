@@ -1,0 +1,33 @@
+.notificationContainer{
+    width: 250px;
+    height: 100px;
+    background-color: #DCDCDC;
+    font-size: 10px;
+    border-radius: 10px;
+    margin: 6px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.notificationTitle{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 1px;
+}
+.notificationDetails {
+    font-size: 11px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.patientName {
+    font-size: 10px;
+    margin: 0;
+}
+.patientAge {
+    font-size: 10px;
+    margin: 0;
+}
+.patientCovid {
+    font-size: 10px;
+    margin: 0;
+}

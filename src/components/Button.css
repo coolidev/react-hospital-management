@@ -1,0 +1,14 @@
+.buttonSmall{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(84, 107, 184);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.buttonText{
+ color: white;
+}

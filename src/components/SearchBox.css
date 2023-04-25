@@ -1,0 +1,36 @@
+.searchButton {
+    width: 80px;
+    height: 40px;
+    color: rgb(160, 159, 159);
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.inputBox {
+    border: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 35px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-align: center;
+}
+
+.inputBox:focus {
+    outline: none;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,116 @@
+.dashboardContainer {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.firstContainer {
+    /* background-color: red; */
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.allCountContainer{
+    width: 90%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.allButtonContainer{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.bigButtonLink:focus {
+    color: inherit;
+}
+
+.bigButtonLink {
+    color: black;
+    width:90px;
+    height: 90%;
+}
+
+.bigButtonLink:active {
+    color: rgb(41, 29, 73);
+}
+
+.secondContainer {
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.allNotificationContainer{
+    height: 100%;
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.notificationList{
+    width: 100%;
+    height: 92%;
+    flex-direction: column;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    display: flex;
+    align-items: center;
+}
+.thirdContainer {
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.containerTitle{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.alldrContainer{
+    background-color: white;
+    width: 85%;
+    height: 63%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.calendarContainer{
+    width: 85%;
+    height: 35%;
+}
+
+.doctorList{
+    width: 100%;
+    height: 89%;
+    flex-direction: column;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}

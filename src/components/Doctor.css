@@ -1,0 +1,60 @@
+.drComponent {
+    width: 250px;
+    height: 50px;
+    background-color: #dcdcdc;
+    border-radius: 8px;
+    display: flex;
+    margin: 6px;
+    flex-direction: row;
+}
+
+.ppContainer {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameContainer {
+    width: 70%;
+    height: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.statusContainer {
+    width: 10%;
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.drName {
+    /* font-weight: bold; */
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.status {
+    font-size: 9px;
+    padding: 0;
+    margin: 0;
+}
+
+.drPhoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}

@@ -1,0 +1,68 @@
+.patientsContainer {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headingContainerUpdate {
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dataContainer {
+    width: 95%;
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.pageNumberContainer {
+    width: 95%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.headingTextContainer {
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headingText {
+    font-size: 16px;
+}
+
+.currentPage {
+    color: white;
+    font-variant: small-caps;
+    font-size: 10px;
+}
+
+.pNumberContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-color: aqua;
+}
